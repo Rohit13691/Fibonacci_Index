@@ -1,3 +1,4 @@
+// This program will show you index of a fibonacci number.
 #include <iostream>
 using namespace std;
 int main()
