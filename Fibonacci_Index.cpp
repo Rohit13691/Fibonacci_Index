@@ -14,11 +14,12 @@ int main()
         cout << "Enter Number " << i + 1 << " : ";
         cin >> Fibo[i];
     }
-    cout<<endl;
-    cout<<"\t\tYour Result"<<endl<<endl;
+    cout << endl;
+    cout << "\t\tYour Result" << endl
+         << endl;
     for (int i = 0; i < Num; i++)
     {
-        
+
         int a = 0, b = 1, c = a + b;
         int index = 3;
         while (c < Fibo[i])
@@ -41,6 +42,6 @@ int main()
             cout << "For " << Fibo[i] << " : This is not a Fibonacci Number." << endl;
         }
     }
-    cout<<endl;
+    cout << endl;
     return 0;
 }
